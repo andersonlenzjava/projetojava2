@@ -6,6 +6,16 @@ public class pessoa {
 	
 	private String sobrenome;
 
+	private String idade;
+	
+	public String getIdade() {
+		return idade;
+	}
+
+	public void setIdade(String idade) {
+		this.idade = idade;
+	}
+
 	public String getNome() {
 		return nome;
 	}
